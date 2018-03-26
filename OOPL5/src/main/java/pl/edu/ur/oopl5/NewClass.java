@@ -15,5 +15,8 @@ public class NewClass {
     Ksiazka k3= new Ksiazka("Hobbit: Czyli tam i z powrotem","JRR Tolkie", 2002113,1937,16.44);
     
   k3.setCena(16.45);
+  
+  Data d=new Data();
+  d.aktualnaData();
 }
 }
